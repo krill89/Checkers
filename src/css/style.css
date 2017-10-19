@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.checkboard-container {
+
+  width: 790px;
+  height: 790px;
+  margin: auto;
+}
+.square {
+border: 1px solid black;
+height: 88px;
+width: 88px;
+float: left;
+
+}

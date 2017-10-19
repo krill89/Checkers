@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.checkboard-container {
+
+  width: 790px;
+  height: 790px;
+  margin: auto;
+}
+.square {
+  border: 1px solid black;
+  height: 88px;
+  width: 88px;
+  float: left;
+}
+
+.black {
+  background-color: grey;
+}
+
+.white-pawn {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  margin-top: 5px;
+}
+.black-pawn {
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  margin-top: 5px;
+}
+.focus {
+  border: 2px solid red;
+}
+
+.remove-button {
+  width: 100px;
+  height: 50px;
+}
